@@ -6,4 +6,6 @@ app = Flask(__name__)
 @app.route('/')
 def home_page():
 	return "Hello world"
-
+@app.route("/admin")
+def admin_page():
+	
